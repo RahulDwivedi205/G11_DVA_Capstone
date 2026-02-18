@@ -1,18 +1,18 @@
-# Patient Health Records Dataset 📊
+# Patient Health Records Dataset
 
-This repository contains an anonymized dataset of patient medical records collected between **2020 and 2025**. It is designed for **health analytics**, **risk prediction**, and **data cleaning practice**.  
-
----
-
-## 📁 Dataset Details
-
-- **Filename:** `patient_health_dataset.csv`  
-- **Total Records:** ~500  
-- **Primary Key:** `Patient_ID`  
+This repository provides an anonymized collection of patient medical records for the period 2020–2025. The dataset is intended for applications in health analytics, risk prediction, and data quality exercises.
 
 ---
 
-## 🗂 Data Dictionary
+## Dataset Details
+
+- **Filename:** patient_health_dataset.csv
+- **Total records:** Approximately 500
+- **Primary key:** Patient_ID
+
+---
+
+## Data Dictionary
 
 | Column Name        | Description                        | Data Type                   |
 |-------------------|-----------------------------------|-----------------------------|
@@ -22,50 +22,50 @@ This repository contains an anonymized dataset of patient medical records collec
 | Gender             | Male / Female / Unknown            | Categorical                 |
 | City               | Standardized city names            | Categorical                 |
 | BMI                | Body Mass Index                    | Float                       |
-| Systolic_BP        | Upper blood pressure value         | Integer                     |
-| Diastolic_BP       | Lower blood pressure value         | Integer                     |
-| Heart_Rate         | Beats per minute                   | Integer                     |
-| Cholesterol_Level  | Cholesterol reading                | Integer                     |
-| Diabetic           | Yes / No / Unknown                 | Categorical                 |
-| Smoking_Status     | Yes / No / Former / Unknown        | Categorical                 |
-| Medications        | Prescribed medicines               | String                      |
-| Last_Visit_Date    | Date of last visit                 | Date                        |
-| Follow_Up          | Days until next visit              | Integer                     |
+| Systolic_BP        | Systolic (upper) blood pressure    | Integer                     |
+| Diastolic_BP       | Diastolic (lower) blood pressure   | Integer                     |
+| Heart_Rate         | Heart rate (beats per minute)      | Integer                     |
+| Cholesterol_Level  | Cholesterol measurement            | Integer                     |
+| Diabetic           | Diabetes status (Yes/No/Unknown)   | Categorical                 |
+| Smoking_Status     | Smoking status (Yes/No/Former/Unknown) | Categorical             |
+| Medications        | Prescribed medications             | String                      |
+| Last_Visit_Date    | Date of most recent clinical visit | Date                        |
+| Follow_Up          | Days until next scheduled visit    | Integer                     |
 
 ---
 
-## 📊 Key Insights & Statistics (Sample)
+## Key Insights & Sample Statistics
 
-- **Average Age:** 34 years  
-- **Most Common City:** New York  
-- **Patients with Diabetes:** 28%  
-- **Average BMI:** 22.4  
-- **Most Common Blood Pressure:** 120/80  
-
----
-
-## 🔍 Analysis Suggestions
-
-- Correlation between **BMI** and **Cholesterol**  
-- **Smoking** vs **Heart Disease Risk**  
-- **Age** vs **Blood Pressure Trends**  
-- **Medication Impact Analysis**  
+- **Average age:** 34 years
+- **Most common city:** New York
+- **Proportion with diabetes:** 28%
+- **Average BMI:** 22.4
+- **Most common blood pressure reading:** 120/80
 
 ---
 
-## 🧹 Data Cleaning Notes
+## Suggested Analyses
 
-- Standardized inconsistent text values  
-- Converted dates to uniform format  
-- Split blood pressure into systolic/diastolic  
-- Replaced missing values with defaults  
-- Removed units from BMI  
-- Normalized categorical columns  
+- Investigate the relationship between BMI and cholesterol levels
+- Assess smoking status in relation to heart disease risk
+- Examine age-related trends in blood pressure
+- Evaluate the impact of medications on clinical outcomes
 
 ---
 
-## 🛠 Tools Used
+## Data Cleaning Summary
 
-- Google Sheets  
-- Excel  
-- Python  
+- Standardized inconsistent text values
+- Normalized date formats
+- Separated blood pressure into systolic and diastolic components
+- Imputed or replaced missing values with sensible defaults
+- Removed unit annotations from BMI
+- Normalized categorical variables
+
+---
+
+## Tools Used
+
+- Google Sheets
+- Excel
+- Python
