@@ -3,7 +3,7 @@
 ## Dashboard Preview
 
 <p align="center">
-  <img src="assets/dashboard-preview.png" width="100%">
+  <img src="dashboard-preview.png" width="100%">
 </p>
 
 The dataset is designed for:
