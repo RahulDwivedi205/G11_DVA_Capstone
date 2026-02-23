@@ -20,7 +20,7 @@ Each row represents one patient record.
 
 ## Project Overview
 
-The **Patient Health Records Dataset** contains approximately 500 anonymized patient entries structured for analytical and predictive healthcare use cases.
+The **Patient Health Records Dataset** contains approximately 10000 anonymized patient entries structured for analytical and predictive healthcare use cases.
 
 This dataset enables structured evaluation of relationships between lifestyle factors, chronic conditions, and clinical measurements such as BMI, blood pressure, cholesterol, and heart rate.
 
@@ -43,7 +43,7 @@ It supports data-driven healthcare insights and risk segmentation exercises.
 
 - **Filename:** `patient_health_dataset.csv`  
 - **Domain:** Healthcare  
-- **Total Records:** ~500  
+- **Total Records:** ~10000  
 - **Primary Key:** `Patient_ID`  
 - **Structure:** Each row represents one patient  
 - **Tools Used:** Google Sheets, Excel, Python  
